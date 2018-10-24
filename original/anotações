@@ -1,0 +1,113 @@
+ 
+knn-3
+=== Summary ===
+
+Correctly Classified Instances         99.5667 %
+Incorrectly Classified Instances        0.4333 %
+
+=== Confusion Matrix ===
+
+    a    b    c   <-- classified as
+ 1987    8    5 |    a = 1
+    8 1992    0 |    b = 2
+    5    0 1995 |    c = 3
+    
+    
+MultilayerPerceptron
+
+=== Summary ===
+Correctly Classified Instances        5978               99.6333 %
+Incorrectly Classified Instances        22                0.3667 %
+
+=== Confusion Matrix ===
+
+    a    b    c   <-- classified as
+ 1990    6    4 |    a = 1
+    6 1994    0 |    b = 2
+    6    0 1994 |    c = 3
+
+
+Logistic
+
+=== Summary ===
+
+Correctly Classified Instances        5981               99.6833 %
+Incorrectly Classified Instances        19                0.3167 %
+
+=== Confusion Matrix ===
+
+    a    b    c   <-- classified as
+ 1991    4    5 |    a = 1
+    5 1995    0 |    b = 2
+    5    0 1995 |    c = 3
+    
+    
+sAMPLE Logistic
+=== Summary ===
+
+Correctly Classified Instances        5982               99.7    %
+Incorrectly Classified Instances        18                0.3    %
+
+=== Confusion Matrix ===
+
+    a    b    c   <-- classified as
+ 1993    3    4 |    a = 1
+    6 1994    0 |    b = 2
+    5    0 1995 |    c = 3
+
+
+com -1
+knn 3
+=== Summary ===
+
+Correctly Classified Instances        5312               88.5333 %
+Incorrectly Classified Instances       688               11.4667 %
+
+=== Confusion Matrix ===
+
+    a    b    c   <-- classified as
+ 1655   13  332 |    a = 1
+   15 1985    0 |    b = 2
+  328    0 1672 |    c = 3
+  
+MultilayerPerceptron
+
+=== Summary ===
+
+Correctly Classified Instances        5420               90.3333 %
+Incorrectly Classified Instances       580                9.6667 %
+
+=== Confusion Matrix ===
+
+    a    b    c   <-- classified as
+ 1710   10  280 |    a = 1
+   13 1987    0 |    b = 2
+  277    0 1723 |    c = 3
+  
+  SimpleLogistic
+  
+  === Summary ===
+
+Correctly Classified Instances        5447               90.7833 %
+Incorrectly Classified Instances       553                9.2167 %
+
+    a    b    c   <-- classified as
+ 1721    9  270 |    a = 1
+   11 1989    0 |    b = 2
+  263    0 1737 |    c = 3
+
+  
+  Logistic
+
+=== Summary ===
+
+Correctly Classified Instances        5447               90.7833 %
+Incorrectly Classified Instances       553                9.2167 %
+  
+  
+=== Confusion Matrix ===
+
+    a    b    c   <-- classified as
+ 1720    9  271 |    a = 1
+   11 1989    0 |    b = 2
+  262    0 1738 |    c = 3
